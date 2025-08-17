@@ -116,7 +116,10 @@ nav {
 
 #fanta {
   width: 35vw;
+  position: absolute; 
+  z-index: 100; 
 }
+
 
 #orange {
   top: 65%;

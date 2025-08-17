@@ -96,11 +96,13 @@ mm2.add("(min-width: 800px)", () => {
         }
     });
 
-    tl2.to('#fanta', {
-        top: "220%",
-        left: "35%",
-        width: "30vw",
-    }, 'time1')
+tl2.to('#fanta', {
+    top: "220%",
+    left: "35%",
+    width: "20vw",  
+    zIndex: 100,    
+}, 'time1')
+
         .to('#orange2', {
             top: "220%",
             left: "40%",
